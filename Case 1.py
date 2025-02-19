@@ -365,6 +365,7 @@ def main():
     t.left(45)
     t.pencolor('purple')
     trn_ssc(214, -210, 30, 23, 'purple')
+    t.seth(0)
     t.done()
 
 
