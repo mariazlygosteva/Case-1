@@ -7,6 +7,7 @@ t.speed(500)
 screen = t.Screen()
 screen.setup(width=600, height=600)
 
+
 def trn_ssc(x, y, a, b, color):
     '''
     Function, drawing isosceles triangle.
@@ -28,6 +29,7 @@ def trn_ssc(x, y, a, b, color):
     t.right(90)
     t.forward(b)
     t.end_fill()
+
 
 def rctn(x, y, a, b, color):
     '''
@@ -52,6 +54,7 @@ def rctn(x, y, a, b, color):
     t.right(90)
     t.end_fill()
 
+
 def sqr(x, y, a, color):
     '''
     Function, drawing square.
@@ -69,6 +72,7 @@ def sqr(x, y, a, color):
       t.forward(a)
       t.right(90)
     t.end_fill()
+
 
 def trpz(x, y, a, b, c, d, color):
     '''
@@ -97,6 +101,7 @@ def trpz(x, y, a, b, c, d, color):
     t.right(180)
     t.end_fill()
 
+
 def prl_1(x, y, a, color):
     '''
     Function, drawing parallelogram.
@@ -116,6 +121,7 @@ def prl_1(x, y, a, color):
         t.forward(a)
         t.right(120)
     t.end_fill()
+
 
 def prl_2(x, y, a, b, color):
     '''
@@ -138,6 +144,7 @@ def prl_2(x, y, a, b, color):
         t.right(157)
     t.seth(0)
     t.end_fill()
+
 
 def prl_3(x, y, a, b, color):
     '''
